@@ -27,7 +27,7 @@ alias stree='open -a SourceTree'
 alias vim="/usr/local/bin/vim"
 
 # Ember.js
-alias ets="ember test --server"
+alias ets="ember test --server --launch=false"
 alias es="ember s"
 
 #
