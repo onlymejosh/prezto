@@ -29,7 +29,10 @@ alias vim="/usr/local/bin/vim"
 # Ember.js
 alias ets="ember test --server --launch=false"
 alias es="ember s"
+alias esh="IS_HYNDE_ENABLED=false ember s"
 
+# Downloading
+alias ydl="youtube-dl -x --audio-format wav --audio-quality 0"
 #
 # Executes commands at the start of an interactive session.
 #
@@ -41,12 +44,6 @@ alias es="ember s"
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
-
-# Customize to your needs...
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Set iTerm title
 precmd() {
