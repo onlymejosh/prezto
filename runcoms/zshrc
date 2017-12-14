@@ -33,12 +33,8 @@ alias esh="IS_HYNDE_ENABLED=false ember s"
 
 # Downloading
 alias ydl="youtube-dl -x --audio-format wav --audio-quality 0"
-#
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+
+alias c="cd ~/code/"
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
